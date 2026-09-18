@@ -1,0 +1,5 @@
+from invoices
+select {
+  OrderID = invoice_id,
+  Total = total,
+}

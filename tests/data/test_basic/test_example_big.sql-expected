@@ -1,0 +1,652 @@
+WITH table_0 AS (
+  SELECT
+    'nott-1' AS nott,
+    '4f7a9c2b1d40' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-2' AS nott,
+    '8e3b5d0a6c91' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-4' AS nott,
+    '1a2f7e9b4c33' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-5' AS nott,
+    '9d0c6a3f8e72' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-6' AS nott,
+    '6b4e2d9a7c15' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-7' AS nott,
+    '3c8f1e5b0a64' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-8' AS nott,
+    '7a2d9c4b6e08' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-9' AS nott,
+    '0e5b3a7d1f92' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-10' AS nott,
+    '5c9a1f6e2b47' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-12' AS nott,
+    '2d7e4b8c0a39' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-13' AS nott,
+    '8a1c5f9d3e60' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-14' AS nott,
+    '4b6e2a7c9f18' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-15' AS nott,
+    '9f3d0b5a8c24' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-16' AS nott,
+    '1e7a4c2d9b56' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-18' AS nott,
+    '6d0f8b3e5a71' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-19' AS nott,
+    '3a9c1d7f4b85' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-20' AS nott,
+    '7c2e5a9d0f43' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-21' AS nott,
+    '0b4f8e1c6a97' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-22' AS nott,
+    '5a1d7c3e9b20' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-24' AS nott,
+    '8f2b6a0d4c75' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-25' AS nott,
+    '2c9e4b7a1d68' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-26' AS nott,
+    '4d1a8f3c6e05' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-27' AS nott,
+    '9b5c2d0f7a84' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-28' AS nott,
+    '1f8e3b6d9c42' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-29' AS nott,
+    '6a0d4c8f2b17' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-30' AS nott,
+    '3e7b1a5c9d60' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-31' AS nott,
+    '7d2f9e0a4c38' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-32' AS nott,
+    '0c5a8d3b1e76' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-33' AS nott,
+    '5f1c6e2a9b04' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-35' AS nott,
+    '8b4d0a7f3c29' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-36' AS nott,
+    '2e9a5c1d8b47' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-37' AS nott,
+    '4c0f7b3e6a91' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-38' AS nott,
+    '9a2d8c5f1e30' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-39' AS nott,
+    '1d6b4a9c2f58' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-40' AS nott,
+    '6f3e0d7b5a12' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-41' AS nott,
+    '3b8c1f4e9d65' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-42' AS nott,
+    '7e1a6c2d0b94' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-43' AS nott,
+    '0a5f9b3e8c21' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-44' AS nott,
+    '5d2c7a1f4e86' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-46' AS nott,
+    '8c4e0b6d9a37' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-47' AS nott,
+    '2f1d8a5c3b70' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-48' AS nott,
+    '4a9e3c7f0d15' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-49' AS nott,
+    '9c0b5d2e8a64' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-50' AS nott,
+    '1a7f4e9c3d28' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-51' AS nott,
+    '6e2c8b1a5f93' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-52' AS nott,
+    '3d9a0f6c4b17' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-53' AS nott,
+    '7b5e2d8a1c40' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-54' AS nott,
+    '0f1c9d3b6e72' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-55' AS nott,
+    '5e8a4c0f2d19' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-57' AS nott,
+    '8d3b7e5a9c06' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-58' AS nott,
+    '2a6f1c4e8b35' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-59' AS nott,
+    '4f9d2b7a0c68' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-60' AS nott,
+    '9e1a5c3d8f24' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-61' AS nott,
+    '1c4b8e0f6a97' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-62' AS nott,
+    '6b2d9a5c1e73' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-63' AS nott,
+    '3f7c0e4b8d21' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-64' AS nott,
+    '7a1e5f2c9b46' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-65' AS nott,
+    '0d8b3a6e1c59' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-66' AS nott,
+    '5c4f9d2a7e10' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-67' AS nott,
+    '8a0c6b1d4f83' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-68' AS nott,
+    '2d7e3a9c5b14' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-69' AS nott,
+    '4b1f8d0a6e27' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-70' AS nott,
+    '9a5c2e7b3f60' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-71' AS nott,
+    '1e0a4c9d8b52' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-72' AS nott,
+    '6c3b7f1a5e94' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-73' AS nott,
+    '3a8d2c6e0b47' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-74' AS nott,
+    '7f5a1c9b4d20' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-75' AS nott,
+    '0b2e6a3d8c75' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-76' AS nott,
+    '5a9c4f1e7b38' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-77' AS nott,
+    '8e3b0d5c2a61' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-78' AS nott,
+    '2c1f7a4d9e05' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-79' AS nott,
+    '4d8a3c6b0f29' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-80' AS nott,
+    '9b0e5d2a7c84' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-81' AS nott,
+    '1f4c8b3e6d17' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-82' AS nott,
+    '6a7d1e9c5b30' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-83' AS nott,
+    '3c2b6f0a4e98' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-84' AS nott,
+    '7e9a5c1d8b42' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-85' AS nott,
+    '0a3d7f2c6e15' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-86' AS nott,
+    '5b8c4e0a1d76' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-87' AS nott,
+    '8f1d6a3b9c24' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-88' AS nott,
+    '2e5c9a7f0d48' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-89' AS nott,
+    '4a0b3e8d6c91' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-90' AS nott,
+    '9d7f1c5a2e36' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-91' AS nott,
+    '1b6e4a9c0d58' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-92' AS nott,
+    '6d2a8f3b7e04' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-93' AS nott,
+    '3e9c5d1a4b72' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-94' AS nott,
+    '7c0b2f6e8a19' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-95' AS nott,
+    '0f4a9d3c5b67' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-96' AS nott,
+    '5d1e7a2c9f80' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-97' AS nott,
+    '8b6c3d0a4e25' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-98' AS nott,
+    '2f9a1c7e5b43' AS pseudo_id,
+    'Cohort-A' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    '' AS nott,
+    '' AS pseudo_id,
+    '' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-99' AS nott,
+    '4c3e8b0d6a97' AS pseudo_id,
+    'Cohort-B' AS "Cohort"
+  UNION
+  ALL
+  SELECT
+    'nott-100' AS nott,
+    '9a5d2f1c8e64' AS pseudo_id,
+    'Cohort-C' AS "Cohort"
+),
+pdo_distinct AS (
+  SELECT
+    DISTINCT pseudo_id
+  FROM
+    table_0
+  WHERE
+    pseudo_id IS NOT NULL
+    AND pseudo_id <> ''
+)
+SELECT
+  sact.*
+FROM
+  sact
+  INNER JOIN pdo_distinct ON sact.id = pdo_distinct.pseudo_id
+
+-- Generated by PRQL compiler version:0.13.14 (https://prql-lang.org)

@@ -1,0 +1,10 @@
+let pdo_distinct = (
+  from `pdo-large-list.csv`
+  filter ((pseudo_id != null) && (pseudo_id != ''))
+  select pseudo_id
+  group pseudo_id (take 1) 
+)
+
+from sact
+join side:inner pdo_distinct (sact.id == pdo_distinct.pseudo_id)
+select sact.*
